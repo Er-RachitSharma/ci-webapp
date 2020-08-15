@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
       Enter Product ID : <input type="number" name="t1" [(ngModel)]=product.id > <br>
       Enter Name : <input type="text" name="t2" [(ngModel)]=product.name > <br>
       Enter Price : <input type="number" name="t3" [(ngModel)]=product.price > <br>
-      <button type="submit">Add</button>
+      <button type="submit">Add button</button>
     </form>
   `,
   styles: [
